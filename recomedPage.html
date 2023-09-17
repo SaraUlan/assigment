@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Watch Me</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="wrapper__menu">
+                <ul class="wrapper__left">
+                    <li class="wrapper__menu-home">Home</li>
+                    <li class="wrapper__menu-pricing">Pricing</li>
+                    <li class="wrapper__menu-about">About</li>
+                    <li class="wrapper__menu-Admin">Admin</li>
+                </ul>
+                <div class="wrapper__right">
+                    <p class="wrapper__menu-sign">username</p>
+                    <form class="search__form">
+                        <input type="text" class="search__txt" placeholder="Search">
+                        <button class="search__button"><span><img src="images/icon/search__icon.png" alt=""
+                                    class="search__img"></span></button>
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="carousel-main">
+                <ul class="carousel-first">
+                    <li class="carousel-first-info">
+                        <img src="images/pictures/rec2.jpeg" alt="" class="carousel-img2">
+                        <div class="ca-info">
+                            <div class="carousel-info__next">
+                                <h5 class="carousel-ganre2">Драма</h5>
+                                <p class="carousel-name2">Бостонский душитель</p>
+                            </div>
+                            <div class="carousel-info-add__next">
+                                <p class="carousel-country1">США</p>
+                                <p class="carousel-year1">2023</p>
+                                <p class="carousel-duration1">1ч 52мин</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-first-info">
+                        <img src="images/pictures/rec1.jpg" alt="" class="carousel-img1">
+                        <div class="ca-info">
+                            <div class="carousel-info">
+                                <h5 class="carousel-ganre1">Ужасы</h5>
+                                <p class="carousel-name1"> Восстание зловейщих мертвецов</p>
+                            </div>
+                            <div class="carousel-info-add">
+                                <утеш class="carousel-country1">США</p>
+                                    <p class="carousel-year1">2023</p>
+                                    <p class="carousel-duration1">1ч 36мин</p>
+                                    <p class="carousel-age__restriction1">18+</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-first-info">
+                        <img src="images/pictures/rec3.jpg" alt="" class="carousel-img2">
+                        <div class="ca-info">
+                            <div class="carousel-info__next">
+                                <h5 class="carousel-ganre2">Боевые искусства.</h5>
+                                <p class="carousel-name2">Царь горы</p>
+                            </div>
+                            <div class="carousel-info-add__next">
+                                <p class="carousel-country1">Корея</p>
+                                <p class="carousel-year1">2020</p>
+                                <p class="carousel-duration1">13 серии</p>
+                                <p class="carousel-age__restriction1">16+</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="title2">
+                <p class="title2-page">Смотреть фильмы</p>
+            </div>
+            <div class="page__film">
+                <div class="page__film-right">
+                    <div class="filter__title">
+                        <p>ФИЛЬТР</p>
+                    </div>
+                    <table class="filter">
+                        <select name="filter" class="filter__select">
+                            <option value="0">жанр</option>
+                            <option value="1">Боевик</option>
+                            <option value="2">Вестерн</option>
+                            <option value="2">Гангстерский фильм</option>
+                            <option value="2">Трагикомедия</option>
+                            <option value="2">Детектив</option>
+                            <option value="2">Драма</option>
+                            <option value="2">Исторический фильм</option>
+                            <option value="2">Комедия</option>
+                            <option value="2">Мелодрама</option>
+                            <option value="2">Музыкальный фильм</option>
+                            <option value="2">Политический фильм</option>
+                            <option value="2">Приключенческий фильм</option>
+                            <option value="2">Сказка</option>
+                            <option value="2">Трагедия</option>
+                        </select>
+                    </table>
+                    <div class="filter">
+                        <select name="filter" class="filter__select">
+                            <option value="0">2023</option>
+                            <option value="1">2022</option>
+                            <option value="2">2021</option>
+                            <option value="3">2020</option>
+                            <option value="4">2019</option>
+                            <option value="5">2018</option>
+                            <option value="6">2017</option>
+                            <option value="7">2016</option>
+                            <option value="8">2015</option>
+                            <option value="9">2014</option>
+                            <option value="10">2013</option>
+                            <option value="11">2012</option>
+                            <option value="12">2011</option>
+                            <option value="13">2010</option>
+                            <option value="14">2009</option>
+                        </select>
+                    </div>
+                    <div class="filter">
+                        <select name="filter" class="filter__select">
+                            <option value="0">Казахстан</option>
+                            <option value="1">Корея</option>
+                            <option value="2">Китай</option>
+                            <option value="3">США</option>
+                            <option value="4">Россия</option>
+                            <option value="5">Япония</option>
+                            <option value="6">Германия</option>
+                            <option value="7">Великобритания</option>
+                            <option value="8">Испания</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="page__film-left">
+                    <div class="page__films">
+                        <img src="images/pictures/list1.svg" alt="" class="film__img">
+                        <ul class="list__film">
+                            <li class="film__title film__info">Достучаться до небес (1997)</li>
+                            <li class="film__add film__info">Мартин Брест (Тиль Швайгер, «Серебряный Георгий»
+                                Московского МКФ) и Руди
+                                Вурлицер (Ян Йозеф Лиферс) познакомились в
+                                больнице...</li>
+                            <li class="film__info">
+                                Продолжительность: 1ч 27мин<br>
+                                Режиссёр: Томас Ян. <br>
+                                Жанр: криминальный фильм, комедия, драма
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="page__films">
+                        <img src="images/pictures/list2.svg" alt="" class="film__img">
+                        <ul class="list__film">
+                            <li class="film__title film__info">Однажды в... Голливуде (2019)</li>
+                            <li class="film__add film__info">Действия художественного фильма “Однажды в... Голливуде”
+                                происходит в конце 60-х годов в Лос-Анджелесе. В центре сюжета
+                                - история теряющего...</li>
+                            <li class="film__info">
+                                Продолжительность: 2ч 41мин<br>
+                                Режиссёр: Квентин Тарантино <br>
+                                Жанр: комедия, драма
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="page__films">
+                        <img src="images/pictures/list3.svg" alt="" class="film__img">
+                        <ul class="list__film">
+                            <li class="film__title film__info">Кит (2022)</li>
+                            <li class="film__add film__info">Главный герой фильма «Кит» – учитель английского языка из
+                                провинции Чарли, который слишком поздно осознал свою
+                                гомосексуальность. Влюбленный...</li>
+                            <li class="film__info">
+                                Продолжительность: 1ч 57мин<br>
+                                Режиссёр: Даррен Аронофски <br>
+                                Жанр: Драма
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="page__pagination">
+                <button class="page__pagination_next">
+                    More...
+                </button>
+            </div>
+            <div class="footer">
+                <ul class="footer__menu">
+                    <li><a href="#" class="home-link">home</a></li>
+                    <li><a href="#" class="pricing-link">pricing</a></li>
+                    <li><a href="#" class="about-link">about</a></li>
+                </ul>
+                <hr>
+                <div class="footer__end">
+                    <em><a href="#" class="main__page">2023 se-go, Inc slide&#169;</a></em>
+                </div>
+            </div>
+        </main>
+</body>
+
+</html>
