@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Watch Me</title>
+    <link rel="shortcut icon" href="images/icon/Ellipse 2.svg" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
@@ -113,65 +114,55 @@
                     <table class="filter mt-2 mb-2">
                         <tr class="text-center">
                             <th>
-                                <div class="dropdown mb-2">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Жанр
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Боевик</a></li>
-                                        <li><a class="dropdown-item" href="#">Вестерн</a></li>
-                                        <li><a class="dropdown-item" href="#">Гангстерсикй фильм</a></li>
-                                        <li><a class="dropdown-item" href="#">Трагикомедия</a></li>
-                                        <li><a class="dropdown-item" href="#">Детектив</a></li>
-                                        <li><a class="dropdown-item" href="#">Драма</a></li>
-                                        <li><a class="dropdown-item" href="#">Исторический фильм</a></li>
-                                        <li><a class="dropdown-item" href="#">Комедия</a></li>
-                                        <li><a class="dropdown-item" href="#">Мелодрама</a></li>
-                                        <li><a class="dropdown-item" href="#">Музыкальный фильм</a></li>
-                                        <li><a class="dropdown-item" href="#">Политический фильм</a></li>
-                                        <li><a class="dropdown-item" href="#">Приключенческий фильм</a></li>
-                                        <li><a class="dropdown-item" href="#">Сказка</a></li>
-                                        <li><a class="dropdown-item" href="#">Трагедия</a></li>
-                                    </ul>
-                                </div>
-                                <div class="dropdown mb-2">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Год
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">2023</a></li>
-                                        <li><a class="dropdown-item" href="#">2022</a></li>
-                                        <li><a class="dropdown-item" href="#">2021</a></li>
-                                        <li><a class="dropdown-item" href="#">2020</a></li>
-                                        <li><a class="dropdown-item" href="#">2019</a></li>
-                                        <li><a class="dropdown-item" href="#">2018</a></li>
-                                        <li><a class="dropdown-item" href="#">2017</a></li>
-                                        <li><a class="dropdown-item" href="#">2016</a></li>
-                                        <li><a class="dropdown-item" href="#">2015</a></li>
-                                        <li><a class="dropdown-item" href="#">2014</a></li>
-                                        <li><a class="dropdown-item" href="#">2013</a></li>
-                                        <li><a class="dropdown-item" href="#">2012</a></li>
-                                        <li><a class="dropdown-item" href="#">2011</a></li>
-                                        <li><a class="dropdown-item" href="#">2010</a></li>
-                                        <li><a class="dropdown-item" href="#">2009</a></li>
-                                    </ul>
-                                </div>
-                                <div class="dropdown mb-2">
-                                    <button class="btn btn-secondary dropdown-toggle center-block" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Страна
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Казахстан</a></li>
-                                        <li><a class="dropdown-item" href="#">Корея</a></li>
-                                        <li><a class="dropdown-item" href="#">Китай</a></li>
-                                        <li><a class="dropdown-item" href="#">США</a></li>
-                                        <li><a class="dropdown-item" href="#">Россия</a></li>
-                                        <li><a class="dropdown-item" href="#">Япония</a></li>
-                                        <li><a class="dropdown-item" href="#">Германия</a></li>
-                                        <li><a class="dropdown-item" href="#">Великобритания</a></li>
-                                        <li><a class="dropdown-item" href="#">Испания</a></li>
-                                    </ul>
-                                </div>
+                                <select class="form-select mb-2" aria-label="Default select example">
+                                    <option selected>Жанр</option>
+                                    <option value="1">Боевик</option>
+                                    <option value="2">Вестерн</option>
+                                    <option value="3">Гангстерский фильм</option>
+                                    <option value="4">Трагикомедия</option>
+                                    <option value="5">Детектив</option>
+                                    <option value="6">Драма</option>
+                                    <option value="7">Исторический фильм</option>
+                                    <option value="8">Комедия</option>
+                                    <option value="9">Мелодрама</option>
+                                    <option value="10">Музыкальный фильм</option>
+                                    <option value="11">Политический фильм</option>
+                                    <option value="12">Приключенческий фильм</option>
+                                    <option value="13">Сказка</option>
+                                    <option value="14">Трагедия</option>
+                                </select>
+
+                                <select class="form-select mb-2" aria-label="Default select example">
+                                    <option selected>Год</option>
+                                    <option value="0">2023</option>
+                                    <option value="1">2022</option>
+                                    <option value="2">2021</option>
+                                    <option value="3">2020</option>
+                                    <option value="4">2019</option>
+                                    <option value="5">2018</option>
+                                    <option value="6">2017</option>
+                                    <option value="7">2016</option>
+                                    <option value="8">2015</option>
+                                    <option value="9">2014</option>
+                                    <option value="10">2013</option>
+                                    <option value="11">2012</option>
+                                    <option value="12">2011</option>
+                                    <option value="13">2010</option>
+                                    <option value="14">2009</option>
+                                </select>
+
+                                <select class="form-select mb-2" aria-label="Default select example">
+                                    <option selected>Страна</option>
+                                    <option value="0">Казахстан</option>
+                                    <option value="1">Корея</option>
+                                    <option value="2">Китай</option>
+                                    <option value="3">США</option>
+                                    <option value="4">Россия</option>
+                                    <option value="5">Япония</option>
+                                    <option value="6">Германия</option>
+                                    <option value="7">Великобритания</option>
+                                    <option value="8">Испания</option>
+                                </select>
                             </th>
                         </tr>
                     </table>
