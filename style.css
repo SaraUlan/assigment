@@ -471,6 +471,8 @@ a {
     font-size: 25px;
 }
 
+
+
 .footer__menu,
 .footer__end {
     display: flex;
@@ -481,6 +483,14 @@ a {
     justify-content: center;
     gap: 30px;
     opacity: 55%;
+    align-items: center;
+}
+@media screen and (max-width: 600px) {
+    .footer__menu{
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 .page__pagination {
@@ -559,6 +569,7 @@ hr {
 }
 .review{
     border: 1px solid white;
+    padding:10px;
 }
 .review-author{
     display: flex;
@@ -570,4 +581,21 @@ hr {
 }
 .review h3 {
     padding: 0px 20px;
+}
+.review-content{
+    padding: 0 10px;
+}
+
+.comment_write{
+    display: flex;
+    flex-direction: row;
+}
+#comment_text{
+    flex-grow: 1;
+    padding: 10px;
+    margin: 10px 0;
+}
+#comment_btn{
+    margin: 10px 0;
+    font-size: 13px;
 }
