@@ -54,7 +54,3 @@ searchForm.addEventListener("submit", function (event) {
     const query = searchInput.value;
     performSearch(query);
 });
-
-function showNotification() {
-    alert("Вы перешли по ссылке и вызвали уведомление!");
-}
